@@ -1,7 +1,19 @@
+body {
+    color: white;
+    font-family: roboto;
+}
+
 div.header {
     padding: 60px;
     text-align: center;
     background: black;
-    color: white;
-    font-size: 30px;
+    font-size: 50px;
+}
+
+li {
+    font-size: 16px;
+    padding: 15px;
+    background: black;
+    border-style: solid;
+    width: 25%;
 }
