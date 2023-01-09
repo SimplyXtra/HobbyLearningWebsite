@@ -1,7 +1,8 @@
 body {
     color: WHITE;
     background-color: #F7FFED;
-    font-family: roboto;
+    font-family: roboto-slab;
+    font-size: 20px;
 }
 
 div.header {
@@ -11,10 +12,34 @@ div.header {
     font-size: 50px;
 }
 
+ul {
+    padding: 0px;
+}
+
 li {
-    font-size: 20px;
     padding: 15px;
     background: #5BACE3;
     border-style: solid;
     width: 50%;
+}
+
+table, th, td {
+    background: #B5F5EC;
+    border: 2px solid #636AB8;
+    border-collapse: collapse;
+}
+
+th {
+    background: #636AB8;
+    padding: 10px;
+}
+
+td {
+    padding: 15px;
+    color: #5BACE3;
+}
+
+td.heading {
+    background: #5BACE3;
+    color: WHITE;
 }
