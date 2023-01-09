@@ -1,19 +1,20 @@
 body {
-    color: white;
+    color: WHITE;
+    background-color: #F7FFED;
     font-family: roboto;
 }
 
 div.header {
     padding: 60px;
     text-align: center;
-    background: black;
+    background: #636AB8;
     font-size: 50px;
 }
 
 li {
-    font-size: 16px;
+    font-size: 20px;
     padding: 15px;
-    background: black;
+    background: #5BACE3;
     border-style: solid;
-    width: 25%;
+    width: 50%;
 }
